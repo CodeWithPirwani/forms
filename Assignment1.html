@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: xx-large;
+            font-weight: bold;
+
+        }
+        fieldset{
+            border:2px dotted rgb(22, 35, 77);
+        }
+        legend{
+            color: rgb(22, 35, 77);
+        }
+        .input{
+            width: 100%;
+            border:2px solid rgb(22, 35, 77);
+            background-color: rgba(159, 207, 207, 0.688);
+            margin-left: 100px;
+        }
+        img{
+            width: 60px;
+            height: 40px;
+        }
+        .head{
+            padding-left: 430px;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <a href="index.html">
+                <img src="Back Arrow.png" alt=""></a>
+            </td>
+            <td class="head">
+                <h1>User Registration Form</h1>
+            </td>
+        </tr>
+    </table>
+    <form action="" method="get">
+        <fieldset>
+            <legend>
+                Personal Information
+            </legend>
+            <table>
+                <tr>
+                    <td><label for="box1">Name:</label></td>
+                    <td><input type="text" class="input" id="box1"></td>
+                </tr>
+                <tr>
+                    <td><label for="box2">Email Address:</label></td>
+                    <td><input type="email" class="input" id="box2"></td>
+                </tr>
+                <tr>
+                    <td><label for="box3">Password:</label></td>
+                    <td><input type="password" class="input" id="box3"></td>
+                </tr>
+                <tr>
+                    <td><label for="box4">Confirm Password:</label></td>
+                    <td><input type="password" class="input" id="box4"></td>
+                </tr>
+            </table>
+        </fieldset><br>
+        <fieldset>
+            <legend>
+                 Address Details
+            </legend>
+            <table>
+                <tr>
+                    <td><label for="box5">Address Line One:</label></td>
+                    <td><input type="text" class="input" id="box5"></td>
+                </tr>
+                <tr>
+                    <td><label for="box6">Address Line Two:</label></td>
+                    <td><input type="text" class="input" id="box6"></td>
+                </tr>
+                <tr>
+                    <td><label for="box7">Town/City:</label></td>
+                    <td><input type="text" class="input" id="box7"></td>
+                </tr>
+                <tr>
+                    <td><label for="box4">Zip/Post Code:</label></td>
+                    <td><input type="text" class="input" id="Box4"></td>
+                </tr>
+            </table>
+        </fieldset>
+            <input type="submit" value="Sign Up!" style="background-color: rgba(159, 207, 207, 0.688); border:2px solid rgb(22, 35, 77); color: rgb(22, 35, 77); margin-top: 12px;">
+            <input type="reset" value="Reset" style="background-color: rgba(159, 207, 207, 0.688); border:2px solid rgb(22, 35, 77); color: rgb(22, 35, 77); margin: 12px;">
+    </form>
+</body>
+</html>

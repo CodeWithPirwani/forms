@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            color: white;
+            font-size: large;
+            font-weight: bold;
+        }
+        div{
+            background-color: rgba(26, 4, 45, 0.816)
+        }
+        td{
+            padding: 5px;
+        }
+        .sec1{
+            background-color: white;
+            width: 200px;
+        }
+        .Sec{
+            width: 300px;
+            height: 18px;
+            margin: 2px;
+        }
+        .sec2{
+            color: white;
+            border: 2px solid black;
+        }
+        p{
+            color: white;
+            display: inline;
+            margin-left: 5px;
+        }
+        img{
+            width: 60px;
+            height: 40px;
+            background-color: white;
+            margin: 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="index.html">
+        <img src="Back Arrow.png" alt=""></a>
+    <form action="">
+    <table>
+        <tr>
+            <td><label for="box1" class="box">FIRST NAME</label></td>
+            <td><input type="text" class="Sec" id="box1"><p>(max 30 characters a-z and A-Z)</p></td>
+        </tr>
+        <tr>
+            <td><label for="box2" class="box">LAST NAME</label></td>
+            <td> <input type="text" class="Sec" id="box2"><p>(max 30 characters a-z and A-Z)</p></td>
+        </tr>
+        <tr>
+            <td><label for="box3" class="box">DATE OF BIRTH</label></td>
+            <td>
+                <select style="color: black;">
+                <option>Day</option>
+            </select>
+            <select style="color: black;">
+                <option>Month</option>
+            </select>
+            <select style="color: black;">
+                <option>Year</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="box4" class="box">EMAIL ID</label></td>
+            <td><input type="email" class="Sec" id="box4"></td>
+        </tr>
+        <tr>
+            <td><label for="box5" class="box">MOBILE NUMBER</label></td>
+            <td><input type="tel" class="Sec" id="box5"><p>(10 digit number)</p></td>
+        </tr>
+        <tr>
+            <td><label for="box6" class="box">GENDER</label></td>
+            <td><label for="box6" class="box">Male</label>
+                <input type="radio" id="box6" name="gen">
+                <label for="box6" class="box">Female</label>
+                <input type="radio" id="box6" name="gen">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="box12">ADDRESS</label></td>
+            <td><textarea name="" id="box12" style="width: 280px; height: 70px;"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="box7" class="box">CITY</label></td>
+            <td><input type="text" class="Sec" id="box7"><p>(max 30 characters a-z and A-Z)</p></td>
+        </tr>
+        <tr>
+            <td><label for="box8" class="box">PIN CODE</label></td>
+            <td><input type="text" class="Sec" id="box8"><p>(6 digit number)</p></td>
+        </tr>
+        <tr>
+            <td><label for="box9" class="box">STATE</label></td>
+            <td><input type="text" class="Sec" id="box9"><p>(max 30 characters a-z and A-Z)</p></td>
+        </tr>
+        <tr>
+            <td><label for="box10" class="box">COUNTRY</label></td>
+            <td><input type="text" class="Sec" id="box10">  </td>
+        </tr>
+        <tr>
+            <td><label>HOBBIES</label></td>
+            <td><label>Drawing<input type="checkbox" name="">
+            </label>
+            <label>Singing<input type="checkbox" name="">
+            </label>
+            <label>Dancing<input type="checkbox" name="">
+            </label><br>
+            <label>Sketching<input type="checkbox" name="">
+            </label>  
+            <label>Others<input type="checkbox" name="">
+            </label><input type="text" class="Sec" id="box11"></td>
+        </tr>
+        <tr>
+            <td><label>QUALIFICATION</label></td>
+            <td><table class="sec2">
+                <tr>
+                    <th>SI.NO</th>
+                    <th>Examinaton</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Your of Passing</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Class X</th>
+                    <td class="sec1"></td>
+                    <td class="sec1"></td>
+                    <td class="sec1"></td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>Class XII</th>
+                    <td class="sec1"></td>
+                    <td class="sec1"></td>
+                    <td class="sec1"></td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>Graduation</th>
+                    <td class="sec1"></td>
+                    <td class="sec1"></td>
+                    <td class="sec1"></td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th>Masters</th>
+                    <td class="sec1"></td>
+                    <td class="sec1"></td>
+                    <td class="sec1"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th><p>(10 char max)</p></th>
+                    <th>Upto 2 decimal</th>
+                    <th></th>
+                </tr>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td><label>COURSES <br> APPLIED FOR</label></td>
+            <td><label>BCA<input type="radio" name="Course" style="margin-right: 10px;">
+            </label>
+            <label>B.com<input type="radio" name="Course" style="margin-right: 10px;">
+            </label>
+            <label>B.Sc<input type="radio" name="Course" style="margin-right: 10px;">
+            </label>
+            <label>B.A<input type="radio" name="Course">
+            </label></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding-left: 250px;"><input type="submit" value="Submit" style="color: black;">
+                <input type="reset" value="Reset" style="color: black;">
+            </td>
+        </tr>
+
+    </table>
+    </form>
+    </div>
+</body>
+</html>

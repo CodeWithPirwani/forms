@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .userentry{
+        width: 30%;
+        border:2px solid black;
+        margin: 4px;
+        margin-left: 90px;
+        box-shadow: -2px 3px 0px -1px rgb(0,0,0) inset;
+    }
+    label{
+        margin: 4px;
+        padding-left: 60px;
+    }
+    input{
+        margin-left: 80px;
+    }
+    img{
+            width: 60px;
+            height: 40px;
+    }
+</style>
+<body>
+    <a href="index.html">
+        <img src="Back Arrow.png" alt=""></a>
+    <form action="" method="post">
+        <fieldset>
+            <legend>
+              Login Details
+            </legend>
+                <label for="box1">Name:</label>
+                <input type="text" class="userentry" id="box1"><br>
+                <label for="box2">Email:</label>
+                <input type="email" class="userentry" id="box2"><br>
+                <label for="box3">Password:</label>
+                <input type="password" class="userentry" id="box3">
+        </fieldset>
+        <fieldset>
+            <legend>
+                Your Feedback
+            </legend>
+            <label>Please check all the emotions that apply to you:</label><br>
+            <label for="box4" style="padding-left: 120px;">Angry</label>
+            <input type="checkbox" id="box4"><br>
+            <label for="box5" style="padding-left: 120px;">Sed</label>
+            <input type="checkbox" id="box5"><br>
+            <label for="box6" style="padding-left: 120px;">Happy</label>
+            <input type="checkbox" id="box6"><br>
+            <label for="box7" style="padding-left: 120px;">Ambivalent</label>
+            <input type="checkbox" id="box7"><br>
+            <label>Please check all the emotions that apply to you:</label><br>
+            <label for="box8" style="padding-left: 120px;">Very Satisfied</label>
+            <input type="radio" id="box8"><br>
+
+        </fieldset>
+</body>
+</html>

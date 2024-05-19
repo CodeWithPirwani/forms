@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: x-large;
+        }
+        textarea{
+            margin-top: 10px;
+            width: 600px;
+            height: 200px;
+            font-family: monospace;
+        }
+        fieldset{
+            width: 600px;
+        }
+        img{
+            width: 60px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        <img src="Back Arrow.png" alt=""></a>
+<form action="">
+    <fieldset>
+        <legend>
+            Login
+        </legend>
+        <label for="box1">Username*</label><br>
+        <input type="text" name="" id="box1" required><br>
+        <label for="box2">Password*</label><br>
+        <input type="password" name="" id="box2" required>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Gender*
+        </legend>
+        <label>
+            <input type="radio" name="gender" required>Male
+        </label>
+        <label>
+            <input type="radio" name="gender" required>Female
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Programming Skill
+        </legend>
+        <label>
+            <input type="checkbox">java
+        </label>
+        <label>
+            <input type="checkbox" checked>C++
+        </label>
+        <label>
+            <input type="checkbox">C#
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Fruit
+        </legend>
+        <label for="">Choose a Fruit:</label>
+        <select name="" id="">
+            <option value="">
+                Banana&nbsp; 
+            </option>
+        </select>
+    </fieldset>
+    <textarea placeholder="Enter your comment here"></textarea><br>
+    <input type="submit" value="SEND">
+    <input type="reset" value="RESET">
+</form>
+</body>
+</html>

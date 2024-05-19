@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: x-large;
+            word-spacing: 2px;
+        }
+        .input{
+            width: 90%;
+            height: 22px;
+            margin: 10px 5px;
+        }
+        .Sec1{
+            border-color: darkblue;
+            height: 190px;
+            margin: 0px 20px 20px 20px;
+        }
+        .Sec{
+            border-color: darkblue;
+            height: 250px;
+            margin: 10px 20px;
+        }
+        .Subsec{
+            border-color: darkblue;
+            height: 80px;
+        }
+        img{
+            width: 60px;
+            height: 40px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        <img src="Back Arrow.png" alt=""></a>
+    <form action="" method="post">
+        <fieldset class="Sec1">
+            <legend>The First Section</legend>
+            <fieldset class="Subsec">
+                <legend>The First Subsection</legend>
+                <label for="Box1">
+                    Field1
+                </label>
+                <input type="text" class="input" id="Box1">
+            </fieldset>
+            <label for="Box2">
+                Field1
+            </label>
+            <input type="text" name="" class="input" id="Box2" style="margin-top: 22px;">
+        </fieldset>
+        <fieldset class="Sec">
+            <legend>Section II</legend>
+            <fieldset class="Subsec">
+                <legend>Section II-A</legend>
+                <label for="Box3">
+                    Field1
+                </label>
+                <input type="text" class="input" id="Box3">
+            </fieldset>
+            <fieldset class="Subsec">
+                <legend>Section II-B</legend>
+                <label for="Box3">
+                    Field1
+                </label>
+                <input type="text" class="input" id="Box3">
+            </fieldset>
+        </fieldset>
+        <input type="submit" value="Go! Go! Go!" style="margin: 0px 20px; border-radius: 20px;">
+    </form>
+</body>
+</html>
